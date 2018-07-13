@@ -1,0 +1,219 @@
+/* 京东首页的css */
+.jd {
+	height: 480px;
+	position: relative;
+}
+.jd-inner {
+	height: 480px;
+	position: relative;
+	z-index: 9;
+}
+.ad {
+	height: 480px;
+	background: url('../images/bg.png') no-repeat top center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.ad a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.jd-col1 {
+	width: 190px;
+	height: 465px;
+	background-color: #6e6568;
+	float: left;
+	padding-top: 15px;
+}
+.jd-col1 li {
+	padding-left: 10px;
+	height: 28px;
+	line-height: 28px;
+}
+.jd-col1 li:hover {
+	background-color: #999395;
+}
+.jd-col1 li a {
+	color: #fff;
+	font-size: 14px;
+}
+.jd-col1 span {
+	color: #fff;
+	font-size: 14px;
+}
+.jd-col2 {
+	width: 790px;
+	height: 480px;
+	float: left;
+	margin-left: 10px;
+}
+.jd-col2-hd {
+	height: 340px;
+	background: url('../images/banner.jpg') no-repeat;
+	margin-bottom: 10px;
+	position: relative;
+}
+.firstpic {
+	margin-right: 10px;
+}
+.jd-col2-bd div {
+	width: 390px;
+	height: 130px;
+	float: left;
+}
+.jd-col2-bd div img {
+	width: 100%;
+}
+.arr-l, .arr-r {
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	width: 25px;
+	height: 60px;
+	background: rgba(0, 0, 0, 0.3);
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	line-height: 60px;
+}
+.arr-l {
+	left: 0;
+	padding-left: 5px;
+}
+.arr-r {
+	right: 0;
+	padding-right: 5px; 
+}
+.jd-col2-hd ol{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -90px ;
+	width: 180px;
+	height: 20px;
+	background: rgba(255,255, 255, 0.4);
+	border-radius: 10px;
+}
+.jd-col2-hd ol li {
+	width: 12px;
+	height: 12px;
+	background-color: #fff;
+	border-radius: 50%;
+	float: left;
+	margin: 5px;
+}
+.jd-col2-hd .current {
+	background-color: #f10215;
+}
+.jd-col3 {
+	width: 190px;
+	height: 480px;
+	float: right
+}
+.user {
+	height: 78px;
+	padding: 62px 15px 0;.
+
+}
+.user .user-info {
+	height: 40px;
+	text-align: center;
+	position: relative;
+}
+.user-info-jd img{
+	height: 55px;
+	width: 55px;
+	position: absolute;
+	top: -70px;
+	left: 50px;
+	border-radius: 50%;
+}
+.user-profit {
+	height: 25px;
+/* 	margin-top: 5px; */
+}
+.user-profit a {
+	display: inline-block;
+	width: 70px;
+	margin: 0 5px;
+	line-height: 25px;
+	float: left;
+	text-align: center;
+	border-radius: 15px;
+}
+.user-profit .user-profit-l {
+	color: #E43F3B;
+	background-color: #fff;
+}
+.user-profit .user-profit-r {
+	color: #E0D38D;
+	background-color: #363634;
+}
+.user-profit .user-profit-l:hover {
+	background-color:  #f10215;
+	color: #fff;
+}
+.user-profit .user-profit-r:hover {
+	background-color:  #f10215;
+	color: #fff;
+}
+.news {
+	height: 125px;
+		border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding-top: 5px;
+}
+.news-head {
+	height: 25px;
+	padding: 0 10px;
+}
+.dixian {
+	border-bottom: 2px solid #f10215;
+}
+.news-head a {
+	padding: 0 10px;
+	color: #333;
+}
+.news-head .news-head-r {
+	padding-left: 50px;
+}
+.news-head .news-head-r:hover {
+	color: #f10215;
+}
+.news-buttom {
+	padding: 5px;
+	line-height: 25px;
+}
+.jd-service {
+	height: 200px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.jd-service ul {
+	width: 192px;
+}
+.jd-service li {
+	width: 47px;
+	height: 65px;
+	float: left;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.jd-service li a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.jd-service i{
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin: 15px auto 8px;
+	background: url('../images/sprite_fs@1x.png') no-repeat;
+}
+.jd-service p {
+	text-align: center;
+}
